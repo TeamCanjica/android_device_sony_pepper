@@ -9,7 +9,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pepper/bluetooth
 #inherit from the common montblanc definitions
 -include device/sony/montblanc-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/pepper/include
+TARGET_SPECIFIC_HEADER_PATH := device/sony/pepper/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_pepper_defconfig
 
