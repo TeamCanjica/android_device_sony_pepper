@@ -13,6 +13,10 @@ TARGET_SPECIFIC_HEADER_PATH := device/sony/pepper/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_pepper_defconfig
 
+
+# Audio 
+COMMON_GLOBAL_CFLAGS += -DSONY_ICS_BLOBS 
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
 
