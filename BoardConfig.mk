@@ -13,6 +13,9 @@ TARGET_SPECIFIC_HEADER_PATH := device/sony/pepper/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_pepper_defconfig
 
+# Handling of EGL ICS blobs
+BOARD_EGL_NEEDS_LEGACY_FB := true
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
 
