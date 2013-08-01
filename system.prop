@@ -60,6 +60,10 @@ ste.video.decoder.h264.max.lev=4.2
 # Enable ADB persistence
 persist.service.adb.enable=1
 
+# Disable red border
+persist.sys.strictmode.disable=1
+persist.sys.strictmode.visual=0
+
 # System props for audio
 persist.audio.hp=true
 
